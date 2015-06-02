@@ -38,7 +38,7 @@ public class FindAllBox extends JDialog {
 	private DefaultListModel<String> classesList = new DefaultListModel<String>();
 	private JLabel statusLabel = new JLabel("");
 
-	public FindAllBox() {
+	public FindAllBox(MainWindow mainWindow, boolean b) {
 		progressBar = new JProgressBar(0, 100);
 		JLabel label = new JLabel("Find What:");
 		textField = new JTextField();
